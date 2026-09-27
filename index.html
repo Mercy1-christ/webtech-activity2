@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercy Ng'ambi - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Mercy Ng'ambi</h1>
+  <p>ID: 202503841 | Computer Science Student</p>
+</header>
+
+<nav>
+  <a href="#about">About Me</a>
+  <a href="#hobbies">Hobbies</a>
+  <a href="#learning">Learning Plan</a>
+  <a href="#photos">My Photos</a>
+  <a href="#media">My Media</a>
+  <a href="#contact">Contact</a>
+  <a href="https://www.w3schools.com" target="_blank">Learn Web Dev</a>
+</nav>
+
+<main>
+  <section id="about" class="content-section">
+    <h2>About Me</h2>
+    <p>My name is Mercy Ng'ambi, ID 202503841, a student at Mulungushi University studying Computer Science under the School of Engineering and Technology. I am passionate about technology and I enjoy learning how websites work from scratch using HTML, CSS and JavaScript. I want to become a skilled web developer who builds useful and accessible websites for my community. In my free time I like reading, coding and helping my classmates understand ICT concepts.</p>
+  </section>
+
+  <section id="hobbies" class="content-section">
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Reading educational books</li>
+      <li>Coding and practicing HTML/CSS</li>
+      <li>Playing football with friends</li>
+    </ul>
+    <h3>My Learning Plan</h3>
+    <ol>
+      <li>Practice HTML and CSS every day for one hour to improve my structure and styling skills.</li>
+      <li>Watch tutorials on W3Schools and YouTube to understand responsive design.</li>
+      <li>Build small projects weekly and ask classmates and my lecturer for feedback to improve.</li>
+    </ol>
+  </section>
+
+  <section id="learning" class="content-section">
+    <h2>Weekly Web Learning Plan</h2>
+    <table border="1">
+      <caption>My Weekly Web Development Plan</caption>
+      <tr>
+        <th>Day</th>
+        <th>Topic</th>
+        <th>Practice Task</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>HTML Basics</td>
+        <td>Create page structure with header and sections</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>CSS Styling</td>
+        <td>Style header, gallery and form with colors</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Media and Forms</td>
+        <td>Add video, audio and test contact form</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="photos" class="content-section">
+    <h2>My Photos</h2>
+    <div class="gallery">
+      <figure>
+        <img src="./images/photo1.jpg.jpg" alt="Mercy Ng'ambi at Mulungushi University campus">
+        <figcaption>Photo 1 - At Mulungushi University campus during classes</figcaption>
+      </figure>
+      <figure>
+        <img src="images/photo2.jpg.jpg" alt="Mercy Ng'ambi studying web technologies">
+        <figcaption>Photo 2 - Studying ICT251 Web Technologies in lab</figcaption>
+      </figure>
+      <figure>
+        <img src="images/photo3.jpg.jpg" alt="Mercy Ng'ambi with classmates">
+        <figcaption>Photo 3 - With my classmates after practical session</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="media" class="content-section">
+    <h2>My Media</h2>
+    <h3>Self Introduction Video</h3>
+    <video controls width="100%">
+      <source src="videos/intro.mp4" type="video/mp4">
+      
+    </video>
+    <p><strong>Video Summary:</strong> In this video I introduce myself. My name is Mercy Ng'ambi, ID 202503841, I am studying Computer Science at Mulungushi University, and one web skill I hope to learn is how to build responsive websites that work on phones and computers.</p>
+
+    <h3>My Voice Clip</h3>
+    <audio controls>
+      <source src="audio/voice.mp3" type="audio/mpeg">
+      
+    </audio>
+    <p>This audio clip describes my hobby of reading. I love reading because it helps me learn new ideas and improve my knowledge in web development.</p>
+  </section>
+
+  <section id="contact" class="content-section">
+    <h2>Contact Me</h2>
+    <p>This form is a browser demonstration only and does not send data to a server.</p>
+    <form action="#">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" value="Mercy Ng'ambi" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" value="mercyngambi898@gmail.com" required>
+
+      <label for="topic">Topic:</label>
+      <select id="topic" name="topic">
+        <option value="general">General Question</option>
+        <option value="web">Web Development</option>
+        <option value="hobbies">Hobbies</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Mercy Ng'ambi - ID: 202503841 | mercyngambi898@gmail.com</p>
+</footer>
+
+</body>
+</html>
